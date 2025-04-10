@@ -9,10 +9,6 @@ map("i", "jk", "<ESC>")
 
 vim.g.mapleader = " "
 
-vim.keymap.set('n', '<leader>q', ':q<cr>', {})
-vim.keymap.set('n', '<leader>s', ':w<cr>', {})
-vim.keymap.set('n', '<leader>w', ':wq<cr>', {})
-
 -- splits:
 
 vim.keymap.set('n', '<leader>h', ':split<cr>', {})
@@ -33,3 +29,9 @@ vim.keymap.set('n', '<M-right>', ':vertical resize +2<cr>')
 vim.keymap.set('n', '<M-up>', ':horizontal resize -2<cr>')
 vim.keymap.set('n', '<M-down>', ':horizontal resize +2<cr>')
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
+
+-- personals
+
+vim.keymap.set('n', '<leader>q', ':q<cr>', {})
+vim.keymap.set('n', '<leader>s', ':w<cr>', {})
+vim.keymap.set('n', '<leader>w', ':wq<cr>', {})
