@@ -9,7 +9,7 @@ set t_Co=256
 syntax on
 colorscheme unokai
 
-fazer com que a a aréa de transferência se una a do pc
+" fazer com que a a aréa de transferência se una a do pc
 set clipboard=unnamedplus
 
 " macros
